@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyMephi.HomePage" >
+    <Grid RowSpacing ="3">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.67*"/>
+            <RowDefinition Height="0.13*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*" />
+            <ColumnDefinition Width="0.4*" />
+            <ColumnDefinition Width="0.3*" />
+        </Grid.ColumnDefinitions>
+
+
+        <Image Source="HomePageBackround.jpg" Aspect="AspectFill" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="3"/>
+
+        <Image Source="Icon.png" Aspect="AspectFit" HorizontalOptions="End" Grid.Row="0" Grid.Column="0"  />
+
+        <Label Text = "Unlimited" FontSize="Medium" HorizontalOptions="Center" TextColor="White" VerticalOptions="Center"  Grid.Column="1" />
+
+            <Frame CornerRadius="10" 
+                Opacity="0.1" 
+                BackgroundColor="White" 
+                Margin="20,0,20,0" 
+                VerticalOptions="FillAndExpand"
+                Grid.Row="1" Grid.ColumnSpan="3"
+            />
+
+        <StackLayout Padding="20,0,20,0" Grid.Row="1" Grid.ColumnSpan="3">
+
+
+            <StackLayout>
+                <Label Text="Расписание" FontSize="Large" TextColor="White" HorizontalOptions="Center"/>
+                <Label Text="День Недели" TextColor="White" HorizontalOptions="Center"/>
+                <Label Text="Дата" TextColor="White"  HorizontalOptions="Center"/>
+            </StackLayout>
+            <Frame Margin="20,0,30,0" Opacity="0.2" BackgroundColor="White"/>
+            <Frame Margin="20,0,30,0" Opacity="0.2" BackgroundColor="White"/>
+            <Frame Margin="20,0,30,0" Opacity="0.2" BackgroundColor="White"/>
+            <Frame Margin="20,0,30,0" Opacity="0.2" BackgroundColor="White"/>
+            <Frame Margin="20,0,30,0" Opacity="0.2" BackgroundColor="White"/>
+            <Frame Margin="20,0,30,0" Opacity="0.2" BackgroundColor="White"/>
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>
