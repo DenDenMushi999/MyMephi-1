@@ -39,6 +39,7 @@
                 <Label Text="День Недели" TextColor="White" HorizontalOptions="Center"/>
                 <Label Text="Дата" TextColor="White"  HorizontalOptions="Center"/>
             </StackLayout>
+            <!-- Добавляй данные с расписанием в эти 6 блоков -->
             <Frame Margin="20,0,30,0" Opacity="0.2" BackgroundColor="White"/>
             <Frame Margin="20,0,30,0" Opacity="0.2" BackgroundColor="White"/>
             <Frame Margin="20,0,30,0" Opacity="0.2" BackgroundColor="White"/>
